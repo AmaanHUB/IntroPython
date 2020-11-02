@@ -10,3 +10,18 @@ Why use?:
 * Allows to scale complex applications with ease
 * Extensive support libraries (pip)
 * Can be used in machine learning and data analysis
+
+
+## What Is A Variable?
+
+A variable is a place holder to store the data. 
+
+## Pseudo Coding
+
+* Basically a translation of your code flow into a more human friendly format
+
+## Dynamically Typed Languages
+
+## Overwriting Variables
+
+## Getting User Input From The Command Line
