@@ -24,4 +24,15 @@ A variable is a place holder to store the data.
 
 ## Overwriting Variables
 
+* Same variable name added again, overwrites previously declared variable
+
 ## Getting User Input From The Command Line
+
+
+- Task 1:
+	- Create 3 variables to get user data:
+		- name
+		- DOB
+		- age
+		- display all information
+
