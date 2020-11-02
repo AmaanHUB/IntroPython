@@ -14,7 +14,7 @@ Why use?:
 
 ## What Is A Variable?
 
-A variable is a place holder to store the data. 
+A variable is a place holder to store the data.
 
 ## Pseudo Coding
 
