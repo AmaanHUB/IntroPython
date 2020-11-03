@@ -55,6 +55,9 @@ mixed_data_type_list = ["brown", "red", 54, "yellow", 13, 67, "pink"]
 print(mixed_data_type_list)
 print(type(mixed_data_type_list))
 
+for item in mixed_data_type_list:
+    print(type(mixed_data_type_list))
+
 mixed_data_type_list.append(43)
 print("Append: ", mixed_data_type_list)
 
