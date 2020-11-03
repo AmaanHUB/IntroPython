@@ -84,6 +84,6 @@ short_list = ("cetirizine", "eggs", "ginger ale")
 print(short_list)
 print(type(short_list))
 
-short_list[1] = "chicken"  # this one won't work as Tuple does not allow us to change anything
+# short_list[1] = "chicken"  # this one won't work as Tuple does not allow us to change anything
 
 print(short_list[-1])
