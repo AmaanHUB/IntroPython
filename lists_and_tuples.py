@@ -51,23 +51,39 @@
 # use indexing to print the list in reverse order
 
 
-mixed_data_type_list = ["brown", "red", 54, "yellow", 13, 67, "pink"]
-print(mixed_data_type_list)
-print(type(mixed_data_type_list))
+# mixed_data_type_list = ["brown", "red", 54, "yellow", 13, 67, "pink"]
+# print(mixed_data_type_list)
+# print(type(mixed_data_type_list))
+#
+# for item in mixed_data_type_list:
+#     print(type(mixed_data_type_list))
+#
+# mixed_data_type_list.append(43)
+# print("Append: ", mixed_data_type_list)
+#
+# mixed_data_type_list.remove("brown")
+# print("Remove: ", mixed_data_type_list)
+#
+# mixed_data_type_list[5] = "chicken"
+# print("Replace: ", mixed_data_type_list)
+#
+# mixed_data_type_list.pop()
+# print("Pop: ", mixed_data_type_list)
+#
+# print("Reverse: ", mixed_data_type_list[::-1])
 
-for item in mixed_data_type_list:
-    print(type(mixed_data_type_list))
 
-mixed_data_type_list.append(43)
-print("Append: ", mixed_data_type_list)
+# Tuples
 
-mixed_data_type_list.remove("brown")
-print("Remove: ", mixed_data_type_list)
+# Are immutable
+# Use cases (for data that never changes) .e.g. NI number, DOB, place of birth
 
-mixed_data_type_list[5] = "chicken"
-print("Replace: ", mixed_data_type_list)
+# Syntax: use () to declare
 
-mixed_data_type_list.pop()
-print("Pop: ", mixed_data_type_list)
+short_list = ("cetirizine", "eggs", "ginger ale")
+print(short_list)
+print(type(short_list))
 
-print("Reverse: ", mixed_data_type_list[::-1])
+short_list[1] = "chicken"  # this one won't work as Tuple does not allow us to change anything
+
+print(short_list[-1])
