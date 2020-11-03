@@ -49,22 +49,30 @@ student_details = {
     "Hobbies": ["running", "baseball", "eating"]
 }
 
-print(student_details)
+# print(student_details)
+#
+# student_details["Grades"] = "A*"  # replace something in dictionary
+# print(student_details["Grades"])
+#
+# student_details.update({"Address": "321 Road Street"})  # replace value in dictionary
+# print(student_details["Address"])
+#
+#
+# print(type(student_details.items()))  # display type of items
+#
+# print(student_details["Hobbies"][::])  # display all hobbies
+# print(student_details["Hobbies"][::-1])  # display all hobbies in reverse
+#
+# student_details.pop("DOB")  # remove item in dictionary
+# print(student_details)
+#
+#
+#
 
-student_details["Grades"] = "A*"  # replace something in dictionary
-print(student_details["Grades"])
 
-student_details.update({"Address": "321 Road Street"})  # replace value in dictionary
-print(student_details["Address"])
+student_details["Hobbies"].append("sleeping")  # add to list in dictionary
+print(student_details["Hobbies"])
 
 
-print(type(student_details.items()))  # display type of items
-
-print(student_details["Hobbies"][::])  # display all hobbies
-print(student_details["Hobbies"][::-1])  # display all hobbies in reverse
-
-student_details.pop("DOB")  # remove item in dictionary
-print(student_details)
-
-
-
+student_details["Hobbies"].remove("baseball")  # remove from list in dictionary
+print(student_details["Hobbies"])
