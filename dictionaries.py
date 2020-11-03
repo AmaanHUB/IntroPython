@@ -65,3 +65,6 @@ print(student_details["Hobbies"][::-1])  # display all hobbies in reverse
 
 student_details.pop("DOB")  # remove item in dictionary
 print(student_details)
+
+
+
