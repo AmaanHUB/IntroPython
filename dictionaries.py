@@ -69,10 +69,10 @@ student_details = {
 #
 #
 
-
-student_details["Hobbies"].append("sleeping")  # add to list in dictionary
+# add to list in dictionary
+student_details["Hobbies"].append("sleeping")
 print(student_details["Hobbies"])
 
-
-student_details["Hobbies"].remove("baseball")  # remove from list in dictionary
+# remove from list in dictionary
+student_details["Hobbies"].remove("baseball")
 print(student_details["Hobbies"])
