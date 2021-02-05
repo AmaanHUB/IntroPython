@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8" />
+	</head>
+	<body>
+		<div class="container">
+				<h1 class = "logo">Amaan's Web App</h1>
+				<strong><nav>
+								<!-- Section here to add the links -->
+					<ul class = "menu">
+							<!-- call the various pages to link to -->
+							<li><a href = "{{ url_for("home") }}">Home</a></li>
+							<li><a href = "{{ url_for("about") }}">About</a></li>
+					</ul>
+				</nav></strong>
+		</div>
+		<div class = "container">
+				<!-- helps link to files that extend from this, will be replaced with relevant stuff in those files-->
+				{% block content %}
+				{% endblock %}
+	</body>
+</html>
